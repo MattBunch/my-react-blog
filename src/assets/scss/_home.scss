@@ -1,0 +1,33 @@
+.home {
+    h1 {
+        width: '100%';
+        color: $text-color;
+
+    }
+
+    .feature-posts-container {
+        display: flex;
+    }
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .home{
+        h1{
+            margin-block-start: 1.5em;
+            margin-block-end: 1.5em;
+        }
+
+        .featured-posts-container {
+            flex-direction: column;
+        }
+        
+        .featured-posts-container >.masonary-post {
+            margin: 0;
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
