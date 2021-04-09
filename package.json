@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^7.0.1",
     "node-sass": "^5.0.0",
     "sass-loader": "^7.3.1"
   }
